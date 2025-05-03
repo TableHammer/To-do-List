@@ -78,7 +78,7 @@ form{
     background-color: var(--primary-color);
     border-radius: 15px;
     display: flex;
-    align-self: center;
+    align-items: center;
 }
 .todo .todo-text{
     padding: 15px;
@@ -94,10 +94,19 @@ form{
     align-items: center;
     cursor: pointer;
 }
+.delete-button svg{
+    transition: 200ms;
+}
 .delete-button:hover svg{
     fill: #ff033f;
 }
 .custom-checkbox{
     border: 2px solid var(--accent-color);
-    
+    border-radius: 50%;
+    min-height: 20px;
+    min-width: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
 }
