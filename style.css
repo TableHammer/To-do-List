@@ -80,3 +80,24 @@ form{
     display: flex;
     align-self: center;
 }
+.todo .todo-text{
+    padding: 15px;
+    padding-right: 0px;
+    flex-grow: 1;
+}
+.delete-button{
+    padding: 3px;
+    background: none;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.delete-button:hover svg{
+    fill: #ff033f;
+}
+.custom-checkbox{
+    border: 2px solid var(--accent-color);
+    
+}
